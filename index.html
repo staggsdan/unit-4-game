@@ -6,45 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <script src="./assets/javascript/game.js"></script>
+    
     <title>Crystals Collector</title>
 </head>
 <body>
-
-<div>Crystals Collector!</div>
-
-<div>You will be given a random number at the start of the game.
-    <br>
-    There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
-    <br>
-    You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
-    <br>
-    The value of each crystal is hidden from you until you click it.
-    <br>
-    Each time the game starts, the game will change the values of each crystal.
-</div>
-
-<div id="target-number"></div>
-
-<div id="stats-box">
-    <div id="win-lose"></div>
-    <!-- line 30 #win-lose is the text alert that the player won or lost -->
-    <div id="win-tally"></div>
-    <div id="loss-tally"></div>
-</div>
-
-<span>
-    <div id="crystal-1"></div>
-    <div id="crystal-2"></div>
-    <div id="crystal-3"></div>
-    <div id="crystal-4"></div>
-</span>
-
-<div>
-    Your total score is:
-</div>
     
-<div id="points-tally"> </div>
-
+    <div>Crystals Collector!</div>
+    
+    <div>You will be given a random number at the start of the game.
+        <br>
+        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+        <br>
+        You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+        <br>
+        The value of each crystal is hidden from you until you click it.
+        <br>
+        Each time the game starts, the game will change the values of each crystal.
+    </div>
+    
+    <div id="target-number"></div>
+    
+    <div id="stats-box">
+        <div id="win-lose"></div>
+        <!-- line 30 #win-lose is the text alert that the player won or lost, seen at 1:45 in the demo video -->
+        <div id="win-tally"></div>
+        <div id="loss-tally"></div>
+    </div>
+    
+    <div id="crystals">
+        <h1>crystal1</h1>
+        <h1>crystal</h1>
+        <h1>crystal</h1>
+        <h1>crystal</h1>
+    </div>
+    
+    
+    <div>
+        Your total score is:
+    </div>
+    
+    <div id="points-tally"> </div>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="./assets/javascript/game.js"></script>
 </body>
 </html>
