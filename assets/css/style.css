@@ -1,0 +1,61 @@
+
+
+#header {
+   color: white;
+   background-color: orangered;
+   font-weight: bold;
+   margin: 8px;
+   width: 640px;
+   font-size: 28px;
+   padding: 15px 0 15px 0;
+}
+
+#instructions{
+    color: green;
+    background-color: palegoldenrod;
+    margin: 8px;
+    width: 640px;
+
+}
+
+#target-number{
+    background-color: lightgreen;
+    width: 270px;
+    height: 125px;
+    margin: 8px;
+    float: left;
+}
+
+#stats-box {
+    background-color: lightblue;
+    width: 110px;
+    height: 125px;
+    float: left;
+    margin: 8px;
+}
+
+#crystals {
+    clear: left;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+#score-header {
+    color: white;
+    background-color: darkseagreen;
+    margin: 8px;
+    clear: left;
+    width: 320px;
+}
+
+#points-tally {
+    color: white;
+    background-color: darkseagreen;
+    margin: 8px;
+    height: 50px;
+    width: 320px;
+}
