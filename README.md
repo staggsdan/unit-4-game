@@ -1,1 +1,5 @@
 # unit-4-game
+
+notes on this game:
+
+There are mixed levels of success in this assignment. The crystals and target number load random integers appropriately. The clickSum ("You total score" at the bottom) adds correctly. When the player's score goes over the target number and presumably triggers the fail state, the text on the right hand side over the wins and losses appears saying "you lost". It takes several more clicks for the crystals to reset their random integer. The goal number never resets. The Win Counter and Loss Counter never reset, despite being formatted in kind with the clickSum counter. It's such a weird hodgepodge that I honestly do not know how to logic it out / psuedocode a solution. I spent time cutting and pasting code around the script to see if I could get a different & more successful behavior. Please please please follow up with me after grading this because I don't understand my mistake.
